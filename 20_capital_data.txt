@@ -1,0 +1,13 @@
+India/New Delhi
+China/Beijing
+France/Paris
+Argentina/Buenos Aires
+Egypt/Cairo 
+America/Washington D.C.
+Canada/Ottawa
+Britain/London
+Italy/Rome
+Greece/Athens
+England/London
+United States/Washington D.C.
+Zimbabwe/Harare
