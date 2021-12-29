@@ -2,7 +2,7 @@ from tkinter import Tk, simpledialog, messagebox #importing these two widgets fr
 
 #function hto read information stored in text file 
 def read_from_file():
-    with open("20_capital_data.txt") as file: #opens text file 
+    with open("capital_data.txt") as file: #opens text file 
         for line in file:
             line = line.rstrip("\n") #removes neline character 
             country, city = line.split("/") #country variable stores info before '/' in text file and city stores info after '/' in each line 
@@ -10,7 +10,7 @@ def read_from_file():
 
 #function to insert new info program doesn't already know into text file for future reference 
 def write_to_file(country_name, city_name): #function will add new country and capital city to text file 
-    with open ("20_capital_data.txt", "a") as file: #'a' means to "append" or add new info to the end of the file 
+    with open ("capital_data.txt", "a") as file: #'a' means to "append" or add new info to the end of the file 
         file.write("\n" + country_name + "/" + city_name) #creates new line, writes country, puts in country, slash, then city
 
 print ("Ask the Expert - Capital Cities of the World")#print the text into the shell 
